@@ -1,0 +1,10 @@
+name: VDG2
+channels:
+  - defaults
+dependencies:
+  - python=3.10.20
+  - pip=26.0.1
+  - numpy=1.26.4
+  - scipy=1.15.3
+  - pip:
+      - -r requirements.txt
