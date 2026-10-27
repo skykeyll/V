@@ -18,4 +18,4 @@ The four dataset pickles and all per-protein inputs required by the two entry po
 - `ppis_train335_seed2026_folds5.json`: the fixed five-fold split (seed 2026).
 - `runs/20261020-120930/`:Includes all trained weights. the six final base checkpoints and OOF meta features.
 
-Paths are relative to the repository root, so run all commands from that directory.
+Paths are relative to the repository root, so run all commands from that directory.run main.py to get the prediction results.
