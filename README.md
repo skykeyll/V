@@ -16,6 +16,6 @@ The four dataset pickles and all per-protein inputs required by the two entry po
 - `Dataset/`: `Train_335.pkl` and the three evaluation datasets.
 - `Feature/{pssm,hmm,dssp,resAF,distance_map_SC,psepos,SaProt-WslFoldseek}/`: features for the 706 unique proteins used across those datasets.Feature can download from: https://pan.baidu.com/s/1xAY58R1z4stsc426TLmh5g?pwd=6a3s
 - `ppis_train335_seed2026_folds5.json`: the fixed five-fold split (seed 2026).
-- `runs/20261020-120930/`:Includes all trained weights. the six final base checkpoints and OOF meta features.
+- `runs/base_models/`:Includes all trained weights. the six final base checkpoints and OOF meta features.
 
 Paths are relative to the repository root, so run all commands from that directory.run main.py to get the prediction results.
